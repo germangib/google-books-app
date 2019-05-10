@@ -1,2 +1,2 @@
-# google-books-app
-Google Books App 
+# GoogleBooksSearch
+React-based Google Books Search app, 
