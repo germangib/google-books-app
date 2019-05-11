@@ -24,15 +24,18 @@
   "bugs": {
     "url": "https://github.com/germangib/GoogleBooksSearch/issues"
   },
-  "homepage": "https://github.com/germangib/GoogleBooksSearch#readme",
+  "homepage": "https://shielded-inlet-79715.herokuapp.com/",
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.4",
+    "gh-pages": "",
     "if-env": "^1.0.4",
     "logger": "0.0.1",
     "mongoose": "^5.5.7",
     "morgan": "^1.9.1",
-    "path": "^0.12.7",
-    "react": "^16.8.6"
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "11.7.0"
   }
 }

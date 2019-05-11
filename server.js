@@ -18,7 +18,7 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/google-books-a
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 //use morgan logger for logging requests
-app.use(logger("dev")); 
+//app.use(logger("dev")); 
 //Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -38,7 +38,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
   
 //routes
-console.log("server.js..."); 
+//console.log("server.js..."); 
 app.use("/api/books", require("./routes/api/GoogleBooks"));
 
 // Start the server
