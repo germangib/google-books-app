@@ -3,6 +3,7 @@ const db = require("../models");
 module.exports = {
     //Find all
     findAll: function(req, res){
+        console.log("G Controller - findAll: ");
         db.GoogleBooks
             .find(req.query)
             .sort({ date: -1 })
@@ -12,6 +13,9 @@ module.exports = {
 
     //Create
     create: function(req, res){
+        console.log("G Controller - create: ");
+        //console.log(req.body);
+
         db.GoogleBooks.find({
             apiId: req.body.apiId
         }, function(err, data){
@@ -21,7 +25,7 @@ module.exports = {
             // checks if book is already in db
             if (data.length === 0){
                 db.GoogleBooks
-                    .create(req,body)
+                    .create(req.body)
                     .then(dbModel => res.json(dbModel))
                     .catch(err => res.status(422).json(err));
             }

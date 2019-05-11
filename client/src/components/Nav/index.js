@@ -8,14 +8,14 @@ function Nav() {
         <a className="navbar-brand" href="/">
         <i className="fas fa-house-damage"></i> Google Books Search
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse m-0" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse m-0" id="navbarSupportedContent">
             <div className="navbar-nav ml-auto">
               <a className="nav-link" href="/search">
-              Find Books
+              Google Books Search
               </a>
               <a className="nav-link" href="/saved">
               Saved Books
