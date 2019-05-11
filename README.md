@@ -1,6 +1,5 @@
 # Google Books Search
 ![Landing Page](public/images/google-books-front.jpg) 
-
 Google Books Search is a REACT-based application which connects to `www.googleapis.com` to search for book titles. 
 
 ## How it works
@@ -18,4 +17,4 @@ Google Books Search is a REACT-based application which connects to `www.googleap
 
 ## Application
 
-You can check the deployed version of the application at 
+You can check the deployed version of the application at https://shielded-inlet-79715.herokuapp.com/ 
